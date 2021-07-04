@@ -1,0 +1,10 @@
+venv
+projector_gist
+
+__pycache__
+
+data/*.npy
+data/*.tsv
+data/*.pkl
+data/*.json
+data/*.old
