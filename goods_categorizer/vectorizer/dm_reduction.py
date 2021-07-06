@@ -1,3 +1,4 @@
+import json
 import os
 import pickle
 
@@ -35,6 +36,8 @@ if __name__ == '__main__':
     cat_vectors_2d_path = os.path.join(DATA_DIR, 'cat_vectors_2d.npy')
     mapper_path = os.path.join(DATA_DIR, 'mapper.pkl')
 
+    graph_path = os.path.join(DATA_DIR, 'graph.json')
+
     avg_meta_path = os.path.join(DATA_DIR, 'categories_meta.tsv')
     cat_meta = pd.read_csv(avg_meta_path, sep='\t')
 
@@ -60,3 +63,10 @@ if __name__ == '__main__':
     print(cat_vectors_2d.shape)
     for item, vec in zip(cat_meta.category, cat_vectors_2d):
         print(vec, item)
+
+    graph_data = [
+        {**cat_data._asdict(), "vec": vec.tolist()}
+        for cat_data, vec in zip(cat_meta.itertuples(), cat_vectors_2d)
+    ]
+
+    json.dump(graph_data, open(graph_path, 'w'), indent=2, ensure_ascii=False)

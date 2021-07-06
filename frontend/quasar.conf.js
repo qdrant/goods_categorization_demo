@@ -75,7 +75,13 @@ module.exports = function (/* ctx */) {
     devServer: {
       https: false,
       port: 8080,
-      open: true // opens browser window automatically
+      open: true, // opens browser window automatically
+      proxy: {
+        "/api/": {
+          target: "http://localhost:8000/",
+          logLevel: "debug"
+        }
+      }
     },
 
     // https://v1.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
@@ -116,7 +122,7 @@ module.exports = function (/* ctx */) {
       manifest: {
         name: `Goods Categorizer`,
         short_name: `Goods Categorizer`,
-        description: `Demo example if consumer goods categorizer`,
+        description: `Demo example of consumer goods categorization`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
