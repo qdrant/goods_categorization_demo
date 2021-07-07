@@ -9,7 +9,7 @@ from goods_categorizer.config import DATA_DIR
 app = FastAPI()
 
 neural_searcher = GoodsCategorizer()
-graph_path = os.path.join(DATA_DIR, 'graph.json')
+graph_path = os.path.join(DATA_DIR, 'graph_en.json')
 
 
 @app.get("/api/categorize")

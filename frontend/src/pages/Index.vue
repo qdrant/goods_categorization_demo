@@ -3,25 +3,32 @@
     <div class="q-pa-md q-col-gutter-sm items-stretch">
       <div class="row justify-evenly">
         <div class="col-12 text-grey">
-
           <q-expansion-item icon="info" label="More info">
-            <br/>
+            <br />
             <p>
-              This demo uses product samples from real-life e-commerce categorization. <br />
-              Each product name is encoded using a <b>neural text encoder model</b> and indexed into the Qdrant vector similarity search engine.<br />
-              Once you submit a new product name, it will be encoded using the same neural network and compare against stored references. <br />
+              This demo uses product samples from real-life e-commerce
+              categorization. <br />
+              Each product name is encoded using a
+              <b>neural text encoder model</b> and indexed into the Qdrant
+              vector similarity search engine.<br />
+              Once you submit a new product name, it will be encoded using the
+              same neural network and compare against stored references. <br />
             </p>
             <p>
-              The colored dots you see under the input box are category vectors used in this demo. <br />
+              The colored dots you see under the input box are category vectors
+              used in this demo. <br />
               The vectors have been reduced to 2D using
               <a
                 class="my-link"
                 href="https://umap-learn.readthedocs.io/"
                 target="_blank"
                 >Umap</a
-              > so that they could be rendered.<br />
-              Adding new categories to the system is equivalent to adding a new vector to the collection of examples. <br />
-               It means that the list of categories can be expanded and refined <b>without retraining</b>.
+              >
+              so that they could be rendered.<br />
+              Adding new categories to the system is equivalent to adding a new
+              vector to the collection of examples. <br />
+              It means that the list of categories can be expanded and refined
+              <b>without retraining</b>.
             </p>
           </q-expansion-item>
         </div>
@@ -49,6 +56,7 @@
         </div>
       </div>
 
+      <!--- EXAMPLES --->
       <div class="row justify-evenly">
         <div class="col-12">
           Try this:
@@ -67,6 +75,7 @@
         </div>
       </div>
 
+      <!--- RESULTS --->
       <div class="row justify-evenly q-mt-sm" v-if="results.length">
         <div class="col-12">
           Top categories:
@@ -76,8 +85,10 @@
             :color="category_to_color[result.top_category]"
             text-color="white"
             icon="category"
+            :disable="result.score < 0.5"
           >
-            {{ result.top_category }} / {{ result.category }} ( {{ Math.floor(result.score * 100) / 100 }} )
+            {{ result.top_category }} / {{ result.category }} (
+            {{ Math.floor(result.score * 100) / 100 }} )
           </q-chip>
         </div>
       </div>
@@ -151,6 +162,7 @@ export default {
       ],
       category_to_color: {},
       graphLoaded: false,
+      graph: {},
       datacollection: {
         labels: [],
         datasets: [
@@ -159,6 +171,13 @@ export default {
             borderColor: "#ff000088",
             border: 1,
             label: "Query",
+            data: []
+          },
+          {
+            backgroundColor: "#00000022",
+            borderColor: "#00000088",
+            border: 2,
+            label: "Result",
             data: []
           }
         ]
@@ -173,6 +192,7 @@ export default {
       this.graphLoaded = false;
       try {
         const graph = await axios.get("/api/graph");
+        this.graph = graph.data;
 
         const grouped_categories = _.groupBy(
           graph.data,
@@ -211,6 +231,24 @@ export default {
         console.error(e);
       }
     },
+
+    highlightCategory(top_category, category) {
+
+      const highlightCategory = _.find(
+        this.graph,
+        (record) =>
+          record.top_category === top_category && record.category === category
+      );
+      if (highlightCategory) {
+        this.datacollection.datasets[1].data.push({
+          x: highlightCategory.vec[0],
+          y: highlightCategory.vec[1],
+          r: 10,
+          category: "Close result"
+        });
+        this.datacollection = { ...this.datacollection };
+      }
+    },
     addPoint(x, y, label) {
       this.datacollection.datasets[0].data[0] = {
         x: x,
@@ -218,12 +256,12 @@ export default {
         r: 15,
         category: label
       };
-      this.datacollection = {
-        ...this.datacollection
-      };
+      this.datacollection = { ...this.datacollection };
     },
     async categorize() {
-      if (this.query === '') {
+      this.datacollection.datasets[1].data = [];
+
+      if (this.query === "") {
         return;
       }
       try {
@@ -239,6 +277,8 @@ export default {
         this.addPoint(vec[0], vec[1], this.query);
 
         this.results = (await categories_resp).data.result.categories;
+
+        this.results.forEach(category => this.highlightCategory(category.top_category, category.category))
 
         this.loadingState = false;
       } catch (err) {

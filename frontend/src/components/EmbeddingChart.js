@@ -1,8 +1,6 @@
 import { Bubble, mixins } from "vue-chartjs";
 import Chart from "chart.js";
 
-console.log("Chart.defaults.global", Chart.defaults.global);
-
 export default {
   extends: Bubble,
   mixins: [mixins.reactiveProp],

@@ -32,19 +32,19 @@ if __name__ == '__main__':
     df = pd.read_json(data_path)
 
     category_to_ids = defaultdict(list)
-    category_to_top_cat = {}
 
     for idx, row in enumerate(df.itertuples()):
-        category_to_ids[row.category].append(idx)
-        category_to_top_cat[row.category] = row.top_category
+        full_cat = f'{row.top_category}/{row.category}'
+        category_to_ids[full_cat].append(idx)
 
     avg_vectors = []
     avg_meta = []
-    for cat, ids in category_to_ids.items():
+    for full_cat, ids in category_to_ids.items():
         avg_vec = np.mean(vectors[ids], axis=0)
+        top_cat, cat = full_cat.split("/")
         avg_meta.append({
             "category": cat,
-            "top_category": category_to_top_cat[cat]
+            "top_category": top_cat
         })
         avg_vectors.append(avg_vec)
 

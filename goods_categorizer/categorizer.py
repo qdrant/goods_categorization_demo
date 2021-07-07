@@ -2,6 +2,7 @@ import os
 from collections import defaultdict
 from functools import lru_cache
 from pprint import pprint
+import numpy as np
 
 from qdrant_client import QdrantClient
 
@@ -11,6 +12,10 @@ from goods_categorizer.vectorizer.vectorizer import Vectorizer
 
 
 MAPPER_PATH = os.path.join(DATA_DIR, 'mapper.pkl')
+
+
+def softmax(x):
+    return np.exp(x) / sum(np.exp(x))
 
 
 class GoodsCategorizer:
@@ -27,6 +32,10 @@ class GoodsCategorizer:
             categories[(payload['top_category'], payload['category'])] += hit.score
 
         categories = sorted(categories.items(), key=lambda x: x[1], reverse=True)
+
+        scores = [score for _, score in categories]
+
+        scores = softmax(scores)
 
         categories = [
             {

@@ -19,7 +19,10 @@ python -m goods_categorizer.convert_to_projector
 # Build dimension reduction model for visualisation
 python -m goods_categorizer.vectorizer.dm_reduction
 
-# Upload data to Qdrant
+# Translate categories into english (original - Russian)
+python -m goods_categorizer.translate_categories
+
+# Upload data to Qdrant (should be launched on localhost:6333)
 python -m goods_categorizer.upload_data
 ```
 

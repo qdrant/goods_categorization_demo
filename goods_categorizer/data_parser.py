@@ -20,18 +20,18 @@ class CategoryParser:
                     node = node[path]
         return tree
 
-    def traverse_leafs(self, tree) -> Iterable[str]:
+    def traverse_leafs(self, tree, prefix="") -> Iterable[str]:
         for key, siblings in tree.items():
             if len(siblings) == 0:
-                yield key
+                yield prefix + key
             else:
-                yield from self.traverse_leafs(siblings)
+                yield from self.traverse_leafs(siblings, prefix=key + ", ")
 
     def traverse_tree(self, tree: dict, level=0) -> dict:
         res = {}
         for key, siblings in tree.items():
             if level == self.target_level:
-                res[key] = list(self.traverse_leafs(siblings))
+                res[key] = list(self.traverse_leafs(siblings, prefix=key + ', '))
                 if len(res[key]) == 0:
                     res[key] = [key]
             else:
@@ -52,9 +52,9 @@ if __name__ == '__main__':
     parser = CategoryParser()
     categories = parser.parse(categories_path)
 
-    json.dump(categories['Все товары'], open(categories_json_path, 'w'), indent=2, ensure_ascii=False)
+    json.dump(categories['All items'], open(categories_json_path, 'w'), indent=2, ensure_ascii=False)
 
-    categories: dict = categories['Все товары']
+    categories: dict = categories['All items']
 
     good_items = []
 
