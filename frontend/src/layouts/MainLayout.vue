@@ -14,7 +14,7 @@
         <img src="~assets/logo.png" style="width: 38px" />
 
         <q-toolbar-title>
-          Quasar App
+          Qdrant Demo - E-commerce products categorization
         </q-toolbar-title>
 
       </q-toolbar>

@@ -1,5 +1,6 @@
 import os
 from collections import defaultdict
+from functools import lru_cache
 from pprint import pprint
 
 from qdrant_client import QdrantClient
@@ -20,15 +21,27 @@ class GoodsCategorizer:
 
     def categorize(self, good: str):
         vector = self.vectorizer.model.encode(good, show_progress_bar=False)
-        result = self.qdrant_client.search(COLLECTION_NAME, query_vector=vector.tolist(), top=5, append_payload=True)
+        result = self.qdrant_client.search(COLLECTION_NAME, query_vector=vector.tolist(), top=3, append_payload=True)
         categories = defaultdict(float)
         for hit, payload in result:
             categories[(payload['top_category'], payload['category'])] += hit.score
 
+        categories = sorted(categories.items(), key=lambda x: x[1], reverse=True)
+
+        categories = [
+            {
+                "category": cat,
+                "top_category": top_cat,
+                "score": score
+            }
+            for (top_cat, cat), score in categories
+        ]
+
         return {
-            "categories": sorted(categories.items(), key=lambda x: x[1], reverse=True),
+            "categories": categories,
         }
 
+    @lru_cache(1000)
     def embed(self, good: str):
         vector = self.vectorizer.model.encode(good, show_progress_bar=False)
         return {

@@ -12,7 +12,7 @@ export default {
       maintainAspectRatio: false,
       title: {
         display: false,
-        text: "I hate you"
+        text: ""
       },
       legend: {
         display: false
@@ -27,7 +27,7 @@ export default {
               display: false
             },
             scaleLabel: {
-              display: false,
+              display: false
             }
           }
         ],
@@ -41,26 +41,27 @@ export default {
             }
           }
         ]
+      },
+      elements: {
+        point: {
+          borderWidth: 0
+        }
+      },
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, data) {
+            const dataset = data.datasets[tooltipItem.datasetIndex];
+            const label = dataset.data[tooltipItem.index].category || "";
+            return label;
+          }
+        }
       }
-      // plugins: {
-      //   legend: {
-      //     position: "top"
-      //   },
-      //   title: {
-      //     display: true,
-      //     text: "Chart.js Bubble Chart"
-      //   }
-      // }
     }
   }),
 
   mounted() {
     // this.chartData is created in the mixin.
     // If you want to pass options please create a local options object
-    console.log("options", this.options);
-
     this.renderChart(this.chartData, this.options);
-
-    console.log("Chart", this.$data._chart);
   }
 };
