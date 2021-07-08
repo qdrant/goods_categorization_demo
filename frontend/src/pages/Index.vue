@@ -25,6 +25,7 @@
                 >Umap</a
               >
               so that they could be rendered.<br />
+              Reduced to 2D point vectors lose some information, so the relative distance on the plain is not always accurate. <br/>
               Adding new categories to the system is equivalent to adding a new
               vector to the collection of examples. <br />
               It means that the list of categories can be expanded and refined
