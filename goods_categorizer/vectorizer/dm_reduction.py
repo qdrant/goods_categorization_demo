@@ -22,7 +22,8 @@ class DmReduction:
                 n_components=2,
                 metric="cosine",
                 output_metric="euclidean",
-                repulsion_strength=2.0
+                repulsion_strength=2.0,
+                min_dist=0.5
             )
 
     def save(self, path):

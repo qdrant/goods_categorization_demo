@@ -59,7 +59,7 @@
       <!--- EXAMPLES --->
       <div class="row justify-evenly">
         <div class="col-12">
-          Try this:
+          Try this (Multilingual):
           <q-chip
             v-for="example in examples"
             v-bind:key="example"
@@ -139,26 +139,26 @@ export default {
   data() {
     return {
       query: "",
-      examples: ["Smart-TV", "Bread and butter", "Vacuum cleaner"],
+      examples: ["Smart-TV", "Bread and butter", "лосось", "Vacuum cleaner", "iPhone", "lipstick", "Система охлаждения ЦПУ", "Wärmepumpentrockner für Kleidung"],
       loadingState: false,
       results: [],
       palette: [
-        "#db5f57",
-        "#db9057",
-        "#dbc257",
-        "#c3db57",
-        "#91db57",
-        "#5fdb57",
-        "#57db80",
-        "#57dbb2",
-        "#57d3db",
-        "#57a2db",
-        "#5770db",
-        "#6f57db",
-        "#a157db",
-        "#d357db",
-        "#db57b2",
-        "#db5780"
+        "#db5f57aa",
+        "#db9057aa",
+        "#dbc257aa",
+        "#c3db57aa",
+        "#91db57aa",
+        "#5fdb57aa",
+        "#57db80aa",
+        "#57dbb2aa",
+        "#57d3dbaa",
+        "#57a2dbaa",
+        "#5770dbaa",
+        "#6f57dbaa",
+        "#a157dbaa",
+        "#d357dbaa",
+        "#db57b2aa",
+        "#db5780aa"
       ],
       category_to_color: {},
       graphLoaded: false,
@@ -168,8 +168,8 @@ export default {
         datasets: [
           {
             backgroundColor: "#ff000022",
-            borderColor: "#ff000088",
-            border: 1,
+            borderColor: "#ff0000aa",
+            border: 3,
             label: "Query",
             data: []
           },
@@ -206,7 +206,7 @@ export default {
             data: categories.map(category => ({
               x: category.vec[0],
               y: category.vec[1],
-              r: 3,
+              r: 5,
               category: category.category
             }))
           })
@@ -295,52 +295,52 @@ export default {
 </script>
 
 <style scoped>
-.bg-db5f57 {
+.bg-db5f57aa {
   background: #db5f57;
 }
-.bg-db9057 {
+.bg-db9057aa {
   background: #db9057;
 }
-.bg-dbc257 {
+.bg-dbc257aa {
   background: #dbc257;
 }
-.bg-c3db57 {
+.bg-c3db57aa {
   background: #c3db57;
 }
-.bg-91db57 {
+.bg-91db57aa {
   background: #91db57;
 }
-.bg-5fdb57 {
+.bg-5fdb57aa {
   background: #5fdb57;
 }
-.bg-57db80 {
+.bg-57db80aa {
   background: #57db80;
 }
-.bg-57dbb2 {
+.bg-57dbb2aa {
   background: #57dbb2;
 }
-.bg-57d3db {
+.bg-57d3dbaa {
   background: #57d3db;
 }
-.bg-57a2db {
+.bg-57a2dbaa {
   background: #57a2db;
 }
-.bg-5770db {
+.bg-5770dbaa {
   background: #5770db;
 }
-.bg-6f57db {
+.bg-6f57dbaa {
   background: #6f57db;
 }
-.bg-a157db {
+.bg-a157dbaa {
   background: #a157db;
 }
-.bg-d357db {
+.bg-d357dbaa {
   background: #d357db;
 }
-.bg-db57b2 {
+.bg-db57b2aa {
   background: #db57b2;
 }
-.bg-db5780 {
+.bg-db5780aa {
   background: #db5780;
 }
 
