@@ -1,7 +1,7 @@
 
 # Consumer goods categorisation
 
-![Demo](./demo.webm)
+![Demo](./demo.gif)
 
 
 This demo uses product samples from real-life e-commerce categorization.
