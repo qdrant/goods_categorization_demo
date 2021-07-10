@@ -6,7 +6,7 @@ export default {
   mixins: [mixins.reactiveProp],
   data: () => ({
     options: {
-      responsive: false,
+      responsive: true,
       maintainAspectRatio: false,
       title: {
         display: false,

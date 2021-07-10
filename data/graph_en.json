@@ -1,0 +1,1577 @@
+[
+  {
+    "Index": 0,
+    "category": "Automotive tools",
+    "top_category": "Auto",
+    "vec": [
+      11.690360069274902,
+      7.5091776847839355
+    ]
+  },
+  {
+    "Index": 1,
+    "category": "Car chemicals and auto cosmetics",
+    "top_category": "Auto",
+    "vec": [
+      12.61346435546875,
+      6.810773849487305
+    ]
+  },
+  {
+    "Index": 2,
+    "category": "Accessories and equipment",
+    "top_category": "Auto",
+    "vec": [
+      12.151569366455078,
+      6.975282192230225
+    ]
+  },
+  {
+    "Index": 3,
+    "category": "Audio and video",
+    "top_category": "Auto",
+    "vec": [
+      4.808864593505859,
+      -0.07514047622680664
+    ]
+  },
+  {
+    "Index": 4,
+    "category": "Parts",
+    "top_category": "Auto",
+    "vec": [
+      12.677329063415527,
+      6.51942777633667
+    ]
+  },
+  {
+    "Index": 5,
+    "category": "Oils and technical liquids",
+    "top_category": "Auto",
+    "vec": [
+      10.603797912597656,
+      17.075851440429688
+    ]
+  },
+  {
+    "Index": 6,
+    "category": "Motorcycles",
+    "top_category": "Auto",
+    "vec": [
+      11.7593994140625,
+      7.382400035858154
+    ]
+  },
+  {
+    "Index": 7,
+    "category": "Anti-theft devices",
+    "top_category": "Auto",
+    "vec": [
+      6.877894878387451,
+      -4.637646198272705
+    ]
+  },
+  {
+    "Index": 8,
+    "category": "Special",
+    "top_category": "Auto",
+    "vec": [
+      9.721067428588867,
+      -1.489295244216919
+    ]
+  },
+  {
+    "Index": 9,
+    "category": "Vehicles",
+    "top_category": "Auto",
+    "vec": [
+      11.555081367492676,
+      7.637853145599365
+    ]
+  },
+  {
+    "Index": 10,
+    "category": "Tires and wheels",
+    "top_category": "Auto",
+    "vec": [
+      12.877769470214844,
+      6.648373603820801
+    ]
+  },
+  {
+    "Index": 11,
+    "category": "Electronics",
+    "top_category": "Auto",
+    "vec": [
+      6.652564525604248,
+      -4.47711706161499
+    ]
+  },
+  {
+    "Index": 12,
+    "category": "Built-in appliances",
+    "top_category": "Household Appliances",
+    "vec": [
+      9.706413269042969,
+      18.055280685424805
+    ]
+  },
+  {
+    "Index": 13,
+    "category": "Climate technology",
+    "top_category": "Household Appliances",
+    "vec": [
+      12.568589210510254,
+      -2.074223041534424
+    ]
+  },
+  {
+    "Index": 14,
+    "category": "Large kitchen appliances",
+    "top_category": "Household Appliances",
+    "vec": [
+      9.8735990524292,
+      17.866724014282227
+    ]
+  },
+  {
+    "Index": 15,
+    "category": "Small kitchen appliances",
+    "top_category": "Household Appliances",
+    "vec": [
+      10.256105422973633,
+      17.380693435668945
+    ]
+  },
+  {
+    "Index": 16,
+    "category": "Home appliances",
+    "top_category": "Household Appliances",
+    "vec": [
+      13.235692024230957,
+      -1.1259337663650513
+    ]
+  },
+  {
+    "Index": 17,
+    "category": "Beauty equipment",
+    "top_category": "Household Appliances",
+    "vec": [
+      9.741745948791504,
+      -3.9576871395111084
+    ]
+  },
+  {
+    "Index": 18,
+    "category": "Pools and accessories",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      4.971826553344727,
+      2.376725673675537
+    ]
+  },
+  {
+    "Index": 19,
+    "category": "Closets and accessories",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      5.608277797698975,
+      12.00711727142334
+    ]
+  },
+  {
+    "Index": 20,
+    "category": "Showers and washbasins",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      18.13707733154297,
+      -3.6185293197631836
+    ]
+  },
+  {
+    "Index": 21,
+    "category": "Greenhouses",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      18.067434310913086,
+      -3.5868778228759766
+    ]
+  },
+  {
+    "Index": 22,
+    "category": "Picnic, barbecue, grill",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      11.239944458007812,
+      15.403685569763184
+    ]
+  },
+  {
+    "Index": 23,
+    "category": "Garden furniture",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      15.682701110839844,
+      -4.4591474533081055
+    ]
+  },
+  {
+    "Index": 24,
+    "category": "Garden products",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      16.310962677001953,
+      -5.081516742706299
+    ]
+  },
+  {
+    "Index": 25,
+    "category": "Garden decor",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      15.848260879516602,
+      -4.7864484786987305
+    ]
+  },
+  {
+    "Index": 26,
+    "category": "Garden tools and instruments",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      16.047351837158203,
+      -4.7108259201049805
+    ]
+  },
+  {
+    "Index": 27,
+    "category": "Saunas",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      17.929336547851562,
+      -3.829315185546875
+    ]
+  },
+  {
+    "Index": 28,
+    "category": "Seeds and seedlings",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      16.553131103515625,
+      -5.1931633949279785
+    ]
+  },
+  {
+    "Index": 29,
+    "category": "Fertilizers and plant care",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      16.69123649597168,
+      -4.814747333526611
+    ]
+  },
+  {
+    "Index": 30,
+    "category": "Fountains and ponds",
+    "top_category": "Cottage, orchard and garden",
+    "vec": [
+      17.362924575805664,
+      -4.390143871307373
+    ]
+  },
+  {
+    "Index": 31,
+    "category": "Children's sports",
+    "top_category": "Children Goods",
+    "vec": [
+      1.5876027345657349,
+      4.81713342666626
+    ]
+  },
+  {
+    "Index": 32,
+    "category": "Toys and games",
+    "top_category": "Children Goods",
+    "vec": [
+      9.098461151123047,
+      3.758211851119995
+    ]
+  },
+  {
+    "Index": 33,
+    "category": "Development and training",
+    "top_category": "Children Goods",
+    "vec": [
+      9.605202674865723,
+      3.833272933959961
+    ]
+  },
+  {
+    "Index": 34,
+    "category": "Goods for moms and babies",
+    "top_category": "Children Goods",
+    "vec": [
+      9.261021614074707,
+      4.07175874710083
+    ]
+  },
+  {
+    "Index": 35,
+    "category": "Goods for school",
+    "top_category": "Children Goods",
+    "vec": [
+      10.3609037399292,
+      3.998440980911255
+    ]
+  },
+  {
+    "Index": 36,
+    "category": "Hobby and creativity",
+    "top_category": "Children Goods",
+    "vec": [
+      9.959078788757324,
+      4.272492408752441
+    ]
+  },
+  {
+    "Index": 37,
+    "category": "Tickets",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      10.974029541015625,
+      1.0365626811981201
+    ]
+  },
+  {
+    "Index": 38,
+    "category": "Movies",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      5.268999099731445,
+      -0.15177524089813232
+    ]
+  },
+  {
+    "Index": 39,
+    "category": "Divination and prediction",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      11.380080223083496,
+      1.3181943893432617
+    ]
+  },
+  {
+    "Index": 40,
+    "category": "Games for companies",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      8.275845527648926,
+      3.2890067100524902
+    ]
+  },
+  {
+    "Index": 41,
+    "category": "Icons and church utensils",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      11.54764175415039,
+      2.7286272048950195
+    ]
+  },
+  {
+    "Index": 42,
+    "category": "Hookahs and accessories",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      5.181550025939941,
+      12.832268714904785
+    ]
+  },
+  {
+    "Index": 43,
+    "category": "Music",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      4.508536338806152,
+      1.1862740516662598
+    ]
+  },
+  {
+    "Index": 44,
+    "category": "Musical instruments",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      4.654710292816162,
+      1.6092958450317383
+    ]
+  },
+  {
+    "Index": 45,
+    "category": "Numismatics and philately",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      11.471393585205078,
+      1.9110521078109741
+    ]
+  },
+  {
+    "Index": 46,
+    "category": "Online subscription and payment cards",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      13.46535873413086,
+      3.1447958946228027
+    ]
+  },
+  {
+    "Index": 47,
+    "category": "Gift sets",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      12.44542407989502,
+      3.576749801635742
+    ]
+  },
+  {
+    "Index": 48,
+    "category": "Gift certificates",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      13.039878845214844,
+      3.199868679046631
+    ]
+  },
+  {
+    "Index": 49,
+    "category": "Ritual goods",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      11.965947151184082,
+      3.495973825454712
+    ]
+  },
+  {
+    "Index": 50,
+    "category": "Souvenirs",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      4.886200904846191,
+      13.190110206604004
+    ]
+  },
+  {
+    "Index": 51,
+    "category": "Funeral flowers",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      11.608725547790527,
+      3.944344997406006
+    ]
+  },
+  {
+    "Index": 52,
+    "category": "Tours",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      10.691463470458984,
+      0.8516017198562622
+    ]
+  },
+  {
+    "Index": 53,
+    "category": "Flags and coats of arms",
+    "top_category": "Leisure and Entertainment",
+    "vec": [
+      11.261305809020996,
+      2.5500049591064453
+    ]
+  },
+  {
+    "Index": 54,
+    "category": "Accessories",
+    "top_category": "Computers",
+    "vec": [
+      6.625925064086914,
+      -2.857255458831787
+    ]
+  },
+  {
+    "Index": 55,
+    "category": "Uninterruptible power supply",
+    "top_category": "Computers",
+    "vec": [
+      9.192395210266113,
+      15.399896621704102
+    ]
+  },
+  {
+    "Index": 56,
+    "category": "Accessories",
+    "top_category": "Computers",
+    "vec": [
+      7.3211822509765625,
+      -2.17095947265625
+    ]
+  },
+  {
+    "Index": 57,
+    "category": "Computers",
+    "top_category": "Computers",
+    "vec": [
+      6.25697660446167,
+      -3.208296775817871
+    ]
+  },
+  {
+    "Index": 58,
+    "category": "Storage",
+    "top_category": "Computers",
+    "vec": [
+      6.836813449859619,
+      -2.663222551345825
+    ]
+  },
+  {
+    "Index": 59,
+    "category": "Equipment for presentations",
+    "top_category": "Computers",
+    "vec": [
+      8.098484992980957,
+      -1.9954317808151245
+    ]
+  },
+  {
+    "Index": 60,
+    "category": "Workplace organization",
+    "top_category": "Computers",
+    "vec": [
+      9.825176239013672,
+      -0.9737396240234375
+    ]
+  },
+  {
+    "Index": 61,
+    "category": "Hardware",
+    "top_category": "Computers",
+    "vec": [
+      8.652141571044922,
+      -1.463680624961853
+    ]
+  },
+  {
+    "Index": 62,
+    "category": "Peripherals",
+    "top_category": "Computers",
+    "vec": [
+      6.775068759918213,
+      -3.342799425125122
+    ]
+  },
+  {
+    "Index": 63,
+    "category": "Software",
+    "top_category": "Computers",
+    "vec": [
+      7.872352123260498,
+      -2.186889886856079
+    ]
+  },
+  {
+    "Index": 64,
+    "category": "Consumables",
+    "top_category": "Computers",
+    "vec": [
+      7.373238563537598,
+      -1.3752799034118652
+    ]
+  },
+  {
+    "Index": 65,
+    "category": "Networking",
+    "top_category": "Computers",
+    "vec": [
+      5.808412551879883,
+      -3.394392251968384
+    ]
+  },
+  {
+    "Index": 66,
+    "category": "Bank equipment",
+    "top_category": "Equipment",
+    "vec": [
+      11.12871265411377,
+      -2.555539131164551
+    ]
+  },
+  {
+    "Index": 67,
+    "category": "Scales for animals",
+    "top_category": "Equipment",
+    "vec": [
+      2.129568338394165,
+      3.200044631958008
+    ]
+  },
+  {
+    "Index": 68,
+    "category": "Printing and publishing services",
+    "top_category": "Equipment",
+    "vec": [
+      7.931597709655762,
+      -0.7723036408424377
+    ]
+  },
+  {
+    "Index": 69,
+    "category": "Placards",
+    "top_category": "Equipment",
+    "vec": [
+      11.9892578125,
+      -3.847186803817749
+    ]
+  },
+  {
+    "Index": 70,
+    "category": "Laboratory equipment",
+    "top_category": "Equipment",
+    "vec": [
+      11.266329765319824,
+      -1.5464814901351929
+    ]
+  },
+  {
+    "Index": 71,
+    "category": "Lift equipment",
+    "top_category": "Equipment",
+    "vec": [
+      11.052160263061523,
+      -1.6339057683944702
+    ]
+  },
+  {
+    "Index": 72,
+    "category": "Shops equipment",
+    "top_category": "Equipment",
+    "vec": [
+      10.912430763244629,
+      -3.2118587493896484
+    ]
+  },
+  {
+    "Index": 73,
+    "category": "Equipment for repairing electronics",
+    "top_category": "Equipment",
+    "vec": [
+      11.492239952087402,
+      -1.2066599130630493
+    ]
+  },
+  {
+    "Index": 74,
+    "category": "Alarms & security",
+    "top_category": "Equipment",
+    "vec": [
+      12.16638469696045,
+      -3.306344509124756
+    ]
+  },
+  {
+    "Index": 75,
+    "category": "Food equipment",
+    "top_category": "Equipment",
+    "vec": [
+      11.435537338256836,
+      -2.140097141265869
+    ]
+  },
+  {
+    "Index": 76,
+    "category": "Warning labels",
+    "top_category": "Equipment",
+    "vec": [
+      12.111669540405273,
+      -3.636244297027588
+    ]
+  },
+  {
+    "Index": 77,
+    "category": "Industrial equipment climatic",
+    "top_category": "Equipment",
+    "vec": [
+      11.946639060974121,
+      -2.0651090145111084
+    ]
+  },
+  {
+    "Index": 78,
+    "category": "Industrial production",
+    "top_category": "Equipment",
+    "vec": [
+      10.159026145935059,
+      -1.4006048440933228
+    ]
+  },
+  {
+    "Index": 79,
+    "category": "Clothing and footwear",
+    "top_category": "Equipment",
+    "vec": [
+      8.231853485107422,
+      5.879002571105957
+    ]
+  },
+  {
+    "Index": 80,
+    "category": "Advertising constructions materials",
+    "top_category": "Equipment",
+    "vec": [
+      11.68974494934082,
+      -3.8156139850616455
+    ]
+  },
+  {
+    "Index": 81,
+    "category": "Construction",
+    "top_category": "Equipment",
+    "vec": [
+      9.94609260559082,
+      -1.6342250108718872
+    ]
+  },
+  {
+    "Index": 82,
+    "category": "Services",
+    "top_category": "Equipment",
+    "vec": [
+      10.326689720153809,
+      -3.5818543434143066
+    ]
+  },
+  {
+    "Index": 83,
+    "category": "Stage and audio equipment",
+    "top_category": "Equipment",
+    "vec": [
+      4.4061198234558105,
+      0.5540544986724854
+    ]
+  },
+  {
+    "Index": 84,
+    "category": "Cleaning and washing technics",
+    "top_category": "Equipment",
+    "vec": [
+      12.613484382629395,
+      -1.2788816690444946
+    ]
+  },
+  {
+    "Index": 85,
+    "category": "Accessories",
+    "top_category": "Clothing, Shoes & Accessories",
+    "vec": [
+      11.063748359680176,
+      3.849168300628662
+    ]
+  },
+  {
+    "Index": 86,
+    "category": "Children's clothing",
+    "top_category": "Clothing, Shoes & Accessories",
+    "vec": [
+      7.604135990142822,
+      6.44075870513916
+    ]
+  },
+  {
+    "Index": 87,
+    "category": "Women's clothing",
+    "top_category": "Clothing, Shoes and Accessories",
+    "vec": [
+      7.465991497039795,
+      6.0708112716674805
+    ]
+  },
+  {
+    "Index": 88,
+    "category": "Men's clothing",
+    "top_category": "Clothing, Shoes & Accessories",
+    "vec": [
+      7.935244083404541,
+      5.976662635803223
+    ]
+  },
+  {
+    "Index": 89,
+    "category": "Shoes",
+    "top_category": "Clothing, Shoes and Accessories",
+    "vec": [
+      7.974600791931152,
+      6.533674240112305
+    ]
+  },
+  {
+    "Index": 90,
+    "category": "Drink",
+    "top_category": "Food",
+    "vec": [
+      12.001959800720215,
+      16.894540786743164
+    ]
+  },
+  {
+    "Index": 91,
+    "category": "Groceries",
+    "top_category": "Food",
+    "vec": [
+      10.731138229370117,
+      16.057374954223633
+    ]
+  },
+  {
+    "Index": 92,
+    "category": "Non-alcoholic beer and wine",
+    "top_category": "Food",
+    "vec": [
+      12.217683792114258,
+      16.649995803833008
+    ]
+  },
+  {
+    "Index": 93,
+    "category": "Soft drinks",
+    "top_category": "Food",
+    "vec": [
+      12.008296966552734,
+      16.41954231262207
+    ]
+  },
+  {
+    "Index": 94,
+    "category": "All baking",
+    "top_category": "Food",
+    "vec": [
+      10.845699310302734,
+      16.424406051635742
+    ]
+  },
+  {
+    "Index": 95,
+    "category": "Dietary and health food",
+    "top_category": "Food",
+    "vec": [
+      9.664039611816406,
+      15.673127174377441
+    ]
+  },
+  {
+    "Index": 96,
+    "category": "Frozen products",
+    "top_category": "Food",
+    "vec": [
+      10.05429458618164,
+      15.137065887451172
+    ]
+  },
+  {
+    "Index": 97,
+    "category": "Confectionery",
+    "top_category": "Food",
+    "vec": [
+      10.887040138244629,
+      16.018497467041016
+    ]
+  },
+  {
+    "Index": 98,
+    "category": "Preservation",
+    "top_category": "Food",
+    "vec": [
+      9.79192066192627,
+      14.93856430053711
+    ]
+  },
+  {
+    "Index": 99,
+    "category": "Cooking",
+    "top_category": "Food",
+    "vec": [
+      10.301834106445312,
+      15.374513626098633
+    ]
+  },
+  {
+    "Index": 100,
+    "category": "Milk gastronomy",
+    "top_category": "Food",
+    "vec": [
+      11.146162033081055,
+      16.6165714263916
+    ]
+  },
+  {
+    "Index": 101,
+    "category": "Meat gastronomy",
+    "top_category": "Food",
+    "vec": [
+      10.798826217651367,
+      14.66819953918457
+    ]
+  },
+  {
+    "Index": 102,
+    "category": "Fish gastronomy",
+    "top_category": "Food",
+    "vec": [
+      10.350838661193848,
+      14.576347351074219
+    ]
+  },
+  {
+    "Index": 103,
+    "category": "Heating systems, electronic vaporizers and accessories",
+    "top_category": "Food",
+    "vec": [
+      12.684371948242188,
+      -2.1244406700134277
+    ]
+  },
+  {
+    "Index": 104,
+    "category": "Fruits, vegetables and mushrooms",
+    "top_category": "Food",
+    "vec": [
+      10.389754295349121,
+      14.95502758026123
+    ]
+  },
+  {
+    "Index": 105,
+    "category": "Bread and pastries",
+    "top_category": "Food",
+    "vec": [
+      11.245713233947754,
+      15.935757637023926
+    ]
+  },
+  {
+    "Index": 106,
+    "category": "Boxing and martial arts",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      0.889808177947998,
+      3.620171308517456
+    ]
+  },
+  {
+    "Index": 107,
+    "category": "Cycling",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      0.7302417755126953,
+      3.2422986030578613
+    ]
+  },
+  {
+    "Index": 108,
+    "category": "Water sports",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      4.832350254058838,
+      2.820077657699585
+    ]
+  },
+  {
+    "Index": 109,
+    "category": "Winter sports",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      1.1363271474838257,
+      4.62497615814209
+    ]
+  },
+  {
+    "Index": 110,
+    "category": "Games",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      2.4595372676849365,
+      5.031321048736572
+    ]
+  },
+  {
+    "Index": 111,
+    "category": "Team sports",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      2.556835412979126,
+      4.241607189178467
+    ]
+  },
+  {
+    "Index": 112,
+    "category": "Equestrian",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      2.6608870029449463,
+      3.706754684448242
+    ]
+  },
+  {
+    "Index": 113,
+    "category": "Blisks and giroskutery",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      0.8200947642326355,
+      2.5734901428222656
+    ]
+  },
+  {
+    "Index": 114,
+    "category": "Hunting and fishing",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      4.743435382843018,
+      2.6427841186523438
+    ]
+  },
+  {
+    "Index": 115,
+    "category": "Roller skates",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      0.4097009599208832,
+      3.758333921432495
+    ]
+  },
+  {
+    "Index": 116,
+    "category": "Scooters",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      1.103981375694275,
+      2.84427547454834
+    ]
+  },
+  {
+    "Index": 117,
+    "category": "Skateboarding",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      0.9552232623100281,
+      4.4132795333862305
+    ]
+  },
+  {
+    "Index": 118,
+    "category": "Sport protection",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      2.6810457706451416,
+      3.916057825088501
+    ]
+  },
+  {
+    "Index": 119,
+    "category": "Shooting sports",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      2.4149320125579834,
+      4.037875652313232
+    ]
+  },
+  {
+    "Index": 120,
+    "category": "Simulators and fitness",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      1.6700929403305054,
+      4.014487266540527
+    ]
+  },
+  {
+    "Index": 121,
+    "category": "Tourism and outdoor recreation",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      1.7488923072814941,
+      5.414626121520996
+    ]
+  },
+  {
+    "Index": 122,
+    "category": "Extreme sports",
+    "top_category": "Sports & Recreation",
+    "vec": [
+      1.5829238891601562,
+      5.2401838302612305
+    ]
+  },
+  {
+    "Index": 123,
+    "category": "Water",
+    "top_category": "Construction and Repair",
+    "vec": [
+      6.012421607971191,
+      3.5463597774505615
+    ]
+  },
+  {
+    "Index": 124,
+    "category": "Doors, windows and hardware",
+    "top_category": "Construction and Repair",
+    "vec": [
+      8.67689037322998,
+      1.9565562009811401
+    ]
+  },
+  {
+    "Index": 125,
+    "category": "Tools",
+    "top_category": "Construction and Repair",
+    "vec": [
+      6.305440425872803,
+      3.7529067993164062
+    ]
+  },
+  {
+    "Index": 126,
+    "category": "Articles",
+    "top_category": "Construction and Repair",
+    "vec": [
+      6.953537940979004,
+      4.125338077545166
+    ]
+  },
+  {
+    "Index": 127,
+    "category": "Heating and ventilation",
+    "top_category": "Construction and Repair",
+    "vec": [
+      13.061005592346191,
+      -2.1587321758270264
+    ]
+  },
+  {
+    "Index": 128,
+    "category": "Plumbing",
+    "top_category": "Construction and Repair",
+    "vec": [
+      5.900049686431885,
+      3.3841233253479004
+    ]
+  },
+  {
+    "Index": 129,
+    "category": "Electrical",
+    "top_category": "Construction and Repair",
+    "vec": [
+      6.576548099517822,
+      3.597500801086426
+    ]
+  },
+  {
+    "Index": 130,
+    "category": "Household chemical goods",
+    "top_category": "Household Goods",
+    "vec": [
+      13.751794815063477,
+      -1.2645330429077148
+    ]
+  },
+  {
+    "Index": 131,
+    "category": "Interior",
+    "top_category": "Household Goods",
+    "vec": [
+      8.167340278625488,
+      1.756309151649475
+    ]
+  },
+  {
+    "Index": 132,
+    "category": "Furniture",
+    "top_category": "Household Goods",
+    "vec": [
+      8.462803840637207,
+      1.738426685333252
+    ]
+  },
+  {
+    "Index": 133,
+    "category": "Lighting",
+    "top_category": "Household Goods",
+    "vec": [
+      7.555382251739502,
+      1.2236672639846802
+    ]
+  },
+  {
+    "Index": 134,
+    "category": "Kitchen appliances",
+    "top_category": "Household Goods",
+    "vec": [
+      10.467313766479492,
+      16.724016189575195
+    ]
+  },
+  {
+    "Index": 135,
+    "category": "Textiles",
+    "top_category": "Household Goods",
+    "vec": [
+      7.575137615203857,
+      4.726114749908447
+    ]
+  },
+  {
+    "Index": 136,
+    "category": "Products for the holidays",
+    "top_category": "Household Goods",
+    "vec": [
+      12.18197250366211,
+      3.780550956726074
+    ]
+  },
+  {
+    "Index": 137,
+    "category": "Household goods",
+    "top_category": "Household Goods",
+    "vec": [
+      13.426360130310059,
+      -0.8019718527793884
+    ]
+  },
+  {
+    "Index": 138,
+    "category": "Vitamins and minerals",
+    "top_category": "Health Products",
+    "vec": [
+      8.124105453491211,
+      15.335116386413574
+    ]
+  },
+  {
+    "Index": 139,
+    "category": "Disinfectants",
+    "top_category": "Health Products",
+    "vec": [
+      3.1540160179138184,
+      10.658133506774902
+    ]
+  },
+  {
+    "Index": 140,
+    "category": "Diagnostic tests",
+    "top_category": "Health Products",
+    "vec": [
+      4.193824768066406,
+      10.490939140319824
+    ]
+  },
+  {
+    "Index": 141,
+    "category": "Adult toys",
+    "top_category": "Health Products",
+    "vec": [
+      7.76924467086792,
+      5.658872127532959
+    ]
+  },
+  {
+    "Index": 142,
+    "category": "Medications and supplements",
+    "top_category": "Health Products",
+    "vec": [
+      3.882765293121338,
+      10.680054664611816
+    ]
+  },
+  {
+    "Index": 143,
+    "category": "Medicinal plants",
+    "top_category": "Health Products",
+    "vec": [
+      3.3273088932037354,
+      10.997814178466797
+    ]
+  },
+  {
+    "Index": 144,
+    "category": "Massagers",
+    "top_category": "Health Products",
+    "vec": [
+      3.4352481365203857,
+      9.17137336730957
+    ]
+  },
+  {
+    "Index": 145,
+    "category": "Medical products",
+    "top_category": "Health Products",
+    "vec": [
+      3.743163824081421,
+      10.469592094421387
+    ]
+  },
+  {
+    "Index": 146,
+    "category": "Medical articles",
+    "top_category": "Health Products",
+    "vec": [
+      4.471946716308594,
+      10.303217887878418
+    ]
+  },
+  {
+    "Index": 147,
+    "category": "Medical devices",
+    "top_category": "Health Products",
+    "vec": [
+      4.051628112792969,
+      9.984198570251465
+    ]
+  },
+  {
+    "Index": 148,
+    "category": "Traditional medicine",
+    "top_category": "Health Products",
+    "vec": [
+      3.4183764457702637,
+      10.247735977172852
+    ]
+  },
+  {
+    "Index": 149,
+    "category": "Optics",
+    "top_category": "Health Products",
+    "vec": [
+      6.8230791091918945,
+      0.6510305404663086
+    ]
+  },
+  {
+    "Index": 150,
+    "category": "Orthopedic products",
+    "top_category": "Health Products",
+    "vec": [
+      5.180534362792969,
+      11.352330207824707
+    ]
+  },
+  {
+    "Index": 151,
+    "category": "Power special purpose",
+    "top_category": "Health Products",
+    "vec": [
+      8.446028709411621,
+      15.43984317779541
+    ]
+  },
+  {
+    "Index": 152,
+    "category": "Nursing",
+    "top_category": "Health Products",
+    "vec": [
+      3.735816717147827,
+      9.783872604370117
+    ]
+  },
+  {
+    "Index": 153,
+    "category": "Cosmetics, perfumes and care",
+    "top_category": "Beauty Products",
+    "vec": [
+      9.522222518920898,
+      -4.361451625823975
+    ]
+  },
+  {
+    "Index": 154,
+    "category": "Tools and hygiene",
+    "top_category": "Beauty Products",
+    "vec": [
+      13.731462478637695,
+      -0.8247818350791931
+    ]
+  },
+  {
+    "Index": 155,
+    "category": "Health and beauty technics",
+    "top_category": "Beauty Products",
+    "vec": [
+      9.75880241394043,
+      -4.270586013793945
+    ]
+  },
+  {
+    "Index": 156,
+    "category": "Marketing, advertising, pr",
+    "top_category": "Services",
+    "vec": [
+      13.1060152053833,
+      1.5621989965438843
+    ]
+  },
+  {
+    "Index": 157,
+    "category": "Medical services",
+    "top_category": "Services",
+    "vec": [
+      15.902017593383789,
+      1.7659821510314941
+    ]
+  },
+  {
+    "Index": 158,
+    "category": "Training, seminars and workshops",
+    "top_category": "Services",
+    "vec": [
+      13.359951972961426,
+      1.110899567604065
+    ]
+  },
+  {
+    "Index": 159,
+    "category": "Funerals",
+    "top_category": "Services",
+    "vec": [
+      15.686062812805176,
+      1.8551690578460693
+    ]
+  },
+  {
+    "Index": 160,
+    "category": "Insurance",
+    "top_category": "Services",
+    "vec": [
+      15.700531959533691,
+      2.280766487121582
+    ]
+  },
+  {
+    "Index": 161,
+    "category": "Maintenance",
+    "top_category": "Services",
+    "vec": [
+      13.876189231872559,
+      0.9458735585212708
+    ]
+  },
+  {
+    "Index": 162,
+    "category": "Transportation services",
+    "top_category": "Services",
+    "vec": [
+      14.512234687805176,
+      1.202004313468933
+    ]
+  },
+  {
+    "Index": 163,
+    "category": "Services in the field of beauty",
+    "top_category": "Services",
+    "vec": [
+      9.993890762329102,
+      -4.0189208984375
+    ]
+  },
+  {
+    "Index": 164,
+    "category": "Financial services",
+    "top_category": "Services",
+    "vec": [
+      15.549257278442383,
+      2.0997066497802734
+    ]
+  },
+  {
+    "Index": 165,
+    "category": "Web hosting and domain registration",
+    "top_category": "Services",
+    "vec": [
+      13.838370323181152,
+      2.7504782676696777
+    ]
+  },
+  {
+    "Index": 166,
+    "category": "Legal services",
+    "top_category": "Services",
+    "vec": [
+      15.042984008789062,
+      1.5276376008987427
+    ]
+  },
+  {
+    "Index": 167,
+    "category": "Gps-navigation",
+    "top_category": "Electronics",
+    "vec": [
+      3.6223487854003906,
+      -0.32310208678245544
+    ]
+  },
+  {
+    "Index": 168,
+    "category": "Audio and video",
+    "top_category": "Electronics",
+    "vec": [
+      4.383015155792236,
+      0.15927934646606445
+    ]
+  },
+  {
+    "Index": 169,
+    "category": "Guarantee certificate",
+    "top_category": "Electronics",
+    "vec": [
+      14.11617660522461,
+      2.4432694911956787
+    ]
+  },
+  {
+    "Index": 170,
+    "category": "Video game console",
+    "top_category": "Electronics",
+    "vec": [
+      8.548563957214355,
+      3.0210161209106445
+    ]
+  },
+  {
+    "Index": 171,
+    "category": "Optical instruments",
+    "top_category": "Electronics",
+    "vec": [
+      6.329637050628662,
+      0.42292046546936035
+    ]
+  },
+  {
+    "Index": 172,
+    "category": "Portable equipment",
+    "top_category": "Electronics",
+    "vec": [
+      3.876995325088501,
+      -0.14103062450885773
+    ]
+  },
+  {
+    "Index": 173,
+    "category": "Phones",
+    "top_category": "Electronics",
+    "vec": [
+      6.675139904022217,
+      -4.163468360900879
+    ]
+  },
+  {
+    "Index": 174,
+    "category": "Camera and camcorder",
+    "top_category": "Electronics",
+    "vec": [
+      5.973657608032227,
+      0.256003201007843
+    ]
+  }
+]
