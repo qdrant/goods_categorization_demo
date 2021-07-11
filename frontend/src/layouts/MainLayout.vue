@@ -49,17 +49,23 @@ import EssentialLink from "components/EssentialLink.vue";
 
 const linksData = [
   {
-    title: "Github - Engine",
+    title: "GitHub - Engine",
     caption: "github.com/qdrant/qdrant",
     icon: "code",
     link: "https://github.com/qdrant/qdrant"
+  },
+  {
+    title: "GitHub - Demo",
+    caption: "github.com/qdrant/goods_categorization_demo",
+    icon: "code",
+    link: "https://github.com/qdrant/goods_categorization_demo"
   },
   {
     title: "Qdrant Docs",
     caption: "qdrant.tech/documentation",
     icon: "school",
     link: "https://qdrant.tech/documentation/"
-  }
+  },
 ];
 
 export default {

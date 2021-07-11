@@ -33,10 +33,6 @@ class GoodsCategorizer:
 
         categories = sorted(categories.items(), key=lambda x: x[1], reverse=True)
 
-        scores = [score for _, score in categories]
-
-        scores = softmax(scores)
-
         categories = [
             {
                 "category": cat,
