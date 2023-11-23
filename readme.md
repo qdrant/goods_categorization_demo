@@ -14,7 +14,7 @@ Reduced to 2D point vectors lose some information, so the relative distance on t
 Adding new categories to the system is equivalent to adding a new vector to the collection of examples.
 It means that the list of categories can be expanded and refined **without retraining**.
 
-## How to
+## How to <a href="https://replit.com/github/qdrant/goods_categorization_demo"><img align="right" src="https://replit.com/badge/github/qdrant/goods_categorization_demo" alt="Run on Repl.it"></a>
 
 Install
 
