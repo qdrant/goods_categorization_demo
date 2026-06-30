@@ -19,12 +19,12 @@
     "vue-chartjs": "^3.5.1"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0",
+    "@quasar/app": "^3.3.2",
     "babel-eslint": "^10.0.1",
-    "eslint": "^7.21.0",
+    "eslint": "^10.6.0",
     "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-vue": "^7.7.0",
-    "eslint-webpack-plugin": "^2.4.0"
+    "eslint-plugin-vue": "^7.20.0",
+    "eslint-webpack-plugin": "^2.7.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
