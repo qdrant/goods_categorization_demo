@@ -48,9 +48,7 @@ function CategoryClusterMap({ graph, queryPoint, matches = [] }) {
 
   return (
     <section className="cluster-section">
-      {/* When a query has matches, the map dims everything else so the ringed
-          dots are findable at a glance among 175 of them. */}
-      <div className={`cluster-map${wanted.size > 0 ? " has-matches" : ""}`}>
+      <div className="cluster-map">
         {graph.map((g, i) => {
           const pos = toPos(g.vec);
           // Edge-aware tooltip: below the dot near the top, and anchored
@@ -109,8 +107,8 @@ function CategoryClusterMap({ graph, queryPoint, matches = [] }) {
           <li>Each dot is a product category, colored by its top-level group.</li>
           {wanted.size > 0 && (
             <li>
-              The enlarged, ringed dots are the categories this query matched, so
-              you can see which region of the space the answer came from.
+              The outlined dots are the categories this query matched, so you can
+              see which region of the space the answer came from.
             </li>
           )}
           {/* Only promise the marker when it is actually on the map. The

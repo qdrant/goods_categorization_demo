@@ -616,29 +616,20 @@ a {
    This keeps the group color in the center and draws a hard accent ring around
    it, separated by a surface-colored gap so the ring reads on any palette
    entry. */
+/* A matched category gets a simple outline, the way the original demo marked
+   them. Everything else stays at full visibility: the point of the map is the
+   shape of the whole space, so dimming it to highlight one dot loses more than
+   it gains. */
 .cluster-dot.is-match {
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
   opacity: 1;
   z-index: 6;
   box-shadow:
-    /* gap in the panel color, so the ring reads as a circle around the dot */
-    0 0 0 5px var(--surface),
-    /* the outer circle itself, solid accent */
-    0 0 0 10px var(--accent),
-    /* soft glow to pull the eye across a crowded map */
-    0 0 0 18px color-mix(in srgb, var(--accent) 22%, transparent);
-}
-
-/* Fade the rest of the catalog while a query has matches. Shrinking the haystack
-   is what actually makes the needle easy to find; the ring alone still competes
-   with 174 other dots. */
-.cluster-map.has-matches .cluster-dot:not(.is-match) {
-  opacity: 0.22;
-}
-
-.cluster-map.has-matches .cluster-dot:not(.is-match):hover {
-  opacity: 0.9;
+    /* hairline gap so the outline never touches the fill */
+    0 0 0 2px var(--surface),
+    /* the outline itself, ink colored so it reads on any palette entry */
+    0 0 0 4px color-mix(in srgb, var(--text) 78%, transparent);
 }
 
 .cluster-dot,
