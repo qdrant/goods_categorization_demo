@@ -611,23 +611,37 @@ a {
   color: #c05746;
 }
 
-/* A matched category needs to be findable at a glance among 175 dots. The old
-   halo was the dot's own color at 22%, so it vanished against its neighbors.
-   This keeps the group color in the center and draws a hard accent ring around
-/* A matched category sits inside a soft translucent disc, the way the original
-   demo marked them. Roughly twice the dot across, translucent so neighboring
-   dots stay readable through it, neutral so it works on all 16 palette colors,
-   with a slightly stronger edge so it reads as a circle rather than a smudge.
-   Every other dot keeps its normal appearance. */
-.cluster-dot.is-match {
-  width: 13px;
-  height: 13px;
+/* A matched category grows and gains a light halo in its own group color, so it
+   reads as an area of the space rather than a marker stamped on top of it.
+
+   Scoped under .cluster-map because a second, later `.cluster-dot` block resets
+   width and box-shadow, and the halo colors are written out per palette entry
+   rather than derived from currentColor: the color-mix form the file used before
+   resolved to transparent on the matched dots, which is why the halo never
+   appeared even once the class was being applied. */
+.cluster-map .cluster-dot.is-match {
+  width: 18px;
+  height: 18px;
   opacity: 1;
-  z-index: 6;
-  box-shadow:
-    0 0 0 9px color-mix(in srgb, var(--text) 18%, transparent),
-    0 0 0 10px color-mix(in srgb, var(--text) 34%, transparent);
+  z-index: 5;
 }
+
+.cluster-map .cluster-dot.is-match.blue { box-shadow: 0 0 0 8px rgba(106, 166, 255, 0.32); }
+.cluster-map .cluster-dot.is-match.pink { box-shadow: 0 0 0 8px rgba(220, 36, 91, 0.32); }
+.cluster-map .cluster-dot.is-match.indigo { box-shadow: 0 0 0 8px rgba(105, 120, 232, 0.32); }
+.cluster-map .cluster-dot.is-match.green { box-shadow: 0 0 0 8px rgba(101, 201, 134, 0.32); }
+.cluster-map .cluster-dot.is-match.red { box-shadow: 0 0 0 8px rgba(229, 109, 100, 0.32); }
+.cluster-map .cluster-dot.is-match.yellow { box-shadow: 0 0 0 8px rgba(222, 198, 79, 0.32); }
+.cluster-map .cluster-dot.is-match.purple { box-shadow: 0 0 0 8px rgba(154, 114, 233, 0.32); }
+.cluster-map .cluster-dot.is-match.mint { box-shadow: 0 0 0 8px rgba(95, 215, 181, 0.32); }
+.cluster-map .cluster-dot.is-match.rose { box-shadow: 0 0 0 8px rgba(231, 107, 151, 0.32); }
+.cluster-map .cluster-dot.is-match.teal { box-shadow: 0 0 0 8px rgba(63, 184, 196, 0.32); }
+.cluster-map .cluster-dot.is-match.amber { box-shadow: 0 0 0 8px rgba(227, 154, 60, 0.32); }
+.cluster-map .cluster-dot.is-match.lime { box-shadow: 0 0 0 8px rgba(167, 201, 87, 0.32); }
+.cluster-map .cluster-dot.is-match.slate { box-shadow: 0 0 0 8px rgba(133, 146, 168, 0.32); }
+.cluster-map .cluster-dot.is-match.plum { box-shadow: 0 0 0 8px rgba(176, 85, 155, 0.32); }
+.cluster-map .cluster-dot.is-match.sky { box-shadow: 0 0 0 8px rgba(78, 195, 224, 0.32); }
+.cluster-map .cluster-dot.is-match.brick { box-shadow: 0 0 0 8px rgba(192, 87, 70, 0.32); }
 
 .cluster-dot,
 .cluster-dot.is-match {
