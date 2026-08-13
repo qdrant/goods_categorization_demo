@@ -611,12 +611,43 @@ a {
   color: #c05746;
 }
 
+/* A matched category needs to be findable at a glance among 175 dots. The old
+   halo was the dot's own color at 22%, so it vanished against its neighbors.
+   This keeps the group color in the center and draws a hard accent ring around
+   it, separated by a surface-colored gap so the ring reads on any palette
+   entry. */
 .cluster-dot.is-match {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   opacity: 1;
-  z-index: 5;
-  box-shadow: 0 0 0 6px color-mix(in srgb, currentColor 22%, transparent);
+  z-index: 6;
+  box-shadow:
+    /* gap in the panel color, so the ring reads as a circle around the dot */
+    0 0 0 5px var(--surface),
+    /* the outer circle itself, solid accent */
+    0 0 0 10px var(--accent),
+    /* soft glow to pull the eye across a crowded map */
+    0 0 0 18px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+/* Fade the rest of the catalog while a query has matches. Shrinking the haystack
+   is what actually makes the needle easy to find; the ring alone still competes
+   with 174 other dots. */
+.cluster-map.has-matches .cluster-dot:not(.is-match) {
+  opacity: 0.22;
+}
+
+.cluster-map.has-matches .cluster-dot:not(.is-match):hover {
+  opacity: 0.9;
+}
+
+.cluster-dot,
+.cluster-dot.is-match {
+  transition:
+    opacity 0.18s ease,
+    width 0.18s ease,
+    height 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
 .query-marker {

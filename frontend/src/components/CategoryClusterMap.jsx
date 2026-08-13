@@ -48,7 +48,9 @@ function CategoryClusterMap({ graph, queryPoint, matches = [] }) {
 
   return (
     <section className="cluster-section">
-      <div className="cluster-map">
+      {/* When a query has matches, the map dims everything else so the ringed
+          dots are findable at a glance among 175 of them. */}
+      <div className={`cluster-map${wanted.size > 0 ? " has-matches" : ""}`}>
         {graph.map((g, i) => {
           const pos = toPos(g.vec);
           // Edge-aware tooltip: below the dot near the top, and anchored
