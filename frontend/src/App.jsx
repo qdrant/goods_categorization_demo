@@ -98,7 +98,11 @@ function App() {
               ))}
             </div>
 
-            <CategoryClusterMap graph={graph} queryPoint={queryPoint} />
+            <CategoryClusterMap
+              graph={graph}
+              queryPoint={queryPoint}
+              matches={categories}
+            />
           </section>
         ) : loading ? (
           <LoadingState />
