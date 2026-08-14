@@ -1,8 +1,5 @@
 
-# Consumer goods categorisation
-
-![Demo](./demo.gif)
-
+# Consumer Goods Categorization
 
 This demo uses product samples from real-life e-commerce categorization.
 Each product name is encoded using a **neural text encoder model** and indexed into the Qdrant vector similarity search engine.
@@ -14,7 +11,7 @@ Reduced to 2D point vectors lose some information, so the relative distance on t
 Adding new categories to the system is equivalent to adding a new vector to the collection of examples.
 It means that the list of categories can be expanded and refined **without retraining**.
 
-## How to
+## How To
 
 Install
 
@@ -59,5 +56,12 @@ uvicorn goods_categorizer.service:app --host 0.0.0.0 --port 8000 --workers 1
 
 Run frontend:
 ```bash
-cd frontend; npm install; npx quasar dev
+cd frontend; npm install; npm run dev
 ```
+
+### Frontend Environment Variables
+
+| Variable | Purpose |
+|-|-|
+| `VITE_API_BASE` | Origin of the backend API. Leave unset when the frontend and API share an origin. A Vercel deploy needs this set, because the API is not co-hosted. |
+| `VITE_MOCK` | Set to `1` to run the UI against sample data with no backend. Useful for working on the frontend alone. |

@@ -27,9 +27,15 @@ class GoodsCategorizer:
     def categorize(self, good: str):
         vector = self.vectorizer.model.encode(good, show_progress_bar=False)
         result = self.qdrant_client.search(COLLECTION_NAME, query_vector=vector.tolist(), top=3, append_payload=True)
+        # Keep the closest example per category rather than summing the hits.
+        # Summing made the number unbounded: two example products from the same
+        # category inside the top 3 added together and the UI showed a "score"
+        # above 1, which cannot be a cosine similarity. It also rewarded a
+        # category for appearing twice over one that matched better once.
         categories = defaultdict(float)
         for hit, payload in result:
-            categories[(payload['top_category'], payload['category'])] += hit.score
+            cat = (payload['top_category'], payload['category'])
+            categories[cat] = max(categories[cat], hit.score)
 
         categories = sorted(categories.items(), key=lambda x: x[1], reverse=True)
 
